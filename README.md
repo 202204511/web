@@ -36,7 +36,7 @@ The server is now running locally and can be accessed on 127.0.0.1:8000.
 Note that the Dockerfile only runs `manage.py runserver`. If there is a need for migrating you have to add `manage.py migrate` as well.
 
 ### Running directly on OS
-If you do not want to run Docker see for running it directly on your OS below. We recommend running the app in a virtual environment.Download the virtual environment package for python:
+If you do not want to run Docker you can run it directly on the OS instead. We recommend running the app in a virtual environment. Download the virtual environment package for python:
 
     python -m install virtualenv
 
@@ -66,7 +66,7 @@ Migrate and run the server:
 The server now runs on 127.0.0.1:8000. Note that it is in form of developer mode for Django, so there is a yellow top bar and an extra side panel.
 
 ## Usage
-Set up the server as  described above. Note that this local development environment runs on SQLite, while the main server uses MySQL, so be mindful of this when migrating from Dev to Production.
+Set up the server as described above. Note that this local development environment runs on SQLite, while the main server uses MySQL, so be mindful of this when migrating from Dev to Production.
 
 The SQLite database is empty by default. The server contains various scripts that will populate the database with groups, tutors and rus'. 
 
